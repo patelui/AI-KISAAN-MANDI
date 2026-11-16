@@ -1,0 +1,53 @@
+# AI-Kisaan Mandi - Project Requirements
+# MERN Stack (MongoDB, Express, React, Node.js)
+
+# ============================================
+# SYSTEM REQUIREMENTS
+# ============================================
+# Node.js  >= 18.x
+# npm      >= 9.x
+# MongoDB  >= 6.x  (local: mongod service)
+# Git      (for collaboration)
+
+# ============================================
+# BACKEND DEPENDENCIES (server/package.json)
+# ============================================
+# Run: cd server && npm install
+bcryptjs>=3.0.3
+cors>=2.8.6
+dotenv>=17.3.1
+express>=5.2.1
+jsonwebtoken>=9.0.3
+mongoose>=9.3.0
+multer>=2.2.0
+
+# ============================================
+# FRONTEND DEPENDENCIES (client/package.json)
+# ============================================
+# Run: cd client && npm install
+react>=19.2.4
+react-dom>=19.2.4
+react-router-dom>=7.13.1
+axios>=1.13.6
+vite>=8.0.0
+@vitejs/plugin-react>=6.0.0
+tailwindcss>=4.2.1
+@tailwindcss/postcss>=4.2.1
+postcss>=8.5.8
+autoprefixer>=10.4.27
+
+# ============================================
+# ENVIRONMENT SETUP (DO NOT COMMIT .env)
+# ============================================
+# 1. Copy server/.env.example to server/.env
+# 2. Set MONGO_URI=mongodb://127.0.0.1:27017/kisaanMandi
+# 3. Set JWT_SECRET to a long random secret
+# 4. Start MongoDB: sudo systemctl start mongod
+
+# ============================================
+# RUN COMMANDS
+# ============================================
+# Backend:  cd server && npm run dev
+# Frontend: cd client && npm run dev
+# App URL:  http://localhost:5173
+# API URL:  http://localhost:5000
